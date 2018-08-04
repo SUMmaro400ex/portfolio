@@ -1,4 +1,4 @@
 Jon Rose Portfolio
 ===
 
-This is my coding portfolio.
+This is my web dev portfolio.

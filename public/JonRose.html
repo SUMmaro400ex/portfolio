@@ -7,112 +7,176 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/global.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script type="text/javascript" src="javascript/global.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
     <link rel="icon" type="image/png" href="assets/JR.png">
     <title>Jon Rose</title>
 </head>
 <body>
-    <section id="about">
-        <div class="container">
-            <div class="row" id="heading">
-                <div class="col s12">
-                    <h2 class="center-align" id="title">JonRose.co</h2>
-                </div>
-            </div>
-            <div class="row" id="spacer" >
-                <div class="col s12">
-                </div>
-            </div>
-            <div class="row" id="intro" >
-                <div class="valign-wrapper">
-                    <div class="col s12 valign">
-                        <h5 id="intro-text"><strong>Hello World, my name is Jon. I'm a developer, challenge seeker, and soon to be a world changer.</strong></h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row" id="contact-links">
-                <div class="col s12">
-                    <a href="http://twitter.com/jonrosedev" target="_blank"><img class="social" src="assets/twitter.png" alt="twittericon"></a>
-                    <a href="http://github.com/SUMmaro400ex" target="_blank"><img class="social" src="assets/github.png" alt="githubicon"></a>
-                    <a href="https://www.linkedin.com/pub/jonathan-rose/84/203/4b1" target="_blank"><img class="social" src="assets/linkedin.png" alt="linkedinicon"></a>
-                    <a href="mailto:jon@jonrose.co" target="_blank"><img class="social" src="assets/email.png" alt="emailicon"></a>
-                </div>
-            </div>
-            <div class="row" id="nav-links" >
-                <div class="col s12" >
-                    <ul id="menu">
-                        <!-- <li class="menu-item"><a href="#about"><strong>About</strong></a></li> -->
-                        <li class="menu-item"><a class="scroll" href="#portfolio"><strong>My Work</strong></a></li>
-                        <li class="menu-item"><a class="scroll" href="#skills"><strong>Skills</strong></a></li>
-                        <li class="menu-item"><a class="scroll" href="#contact"><strong>Contact</strong></a></li>
-                    </ul>
-                </div>
+    <div id="comingSoon">Mobile version coming soon</div>
+    <section id="landing">
+        <div id="titleWrapper">
+            <h1 class="title">Jon Rose Dev</h1>
+            <div id="subtitleDiv">
+                <h6 class="subtitle">Saving the web one line of code at a time</h6>
             </div>
         </div>
     </section>
     <section id="portfolio">
-        <div class="carousel carousel-slider center" id="carousel-container" data-indicators="true">
-            <div id="carousel-back-image">
-                <div class="carousel-item white-text" href="#one!">
-                    <div class="valign-wrapper">
-                        <div class="work-item valign">
-                            <div class="card-title center-align">Fail Quietly</div>
-                            <div class="card-image">
-                                <img id="fail-quietly" src="assets/apps.jpg" alt="fail quietly">
+        <div id="navBar" class="hidden">
+            <h6 id="navBarHeading"><a>Jon Rose</a></h6>
+            <div id="navLinks">
+                <a class="navLink scroll" href="#intro"><h6>About Me</h6></a>
+                <a class="navLink scroll" href="#myWork"><h6>My Work</h6></a>
+                <a class="navLink scroll" href="#expertise" ><h6>Expertise</h6></a>
+                <a class="navLink scroll" href="#contactMe"><h6>Contact Me</h6></a>
+            </div>
+        </div>
+        <div id="intro">
+            <img class="bitmojiMe"src="assets/me.png" alt="bitmoji me"/>
+            <h5 class="aboutMe">Oh hello, didn't see you there.</h5>
+            <br>
+            <br>
+            <h5 class="aboutMe">My name is Jon Rose and I build stuff for the web. From simple websites to full stack apps I like to build it all.
+                If you have some time, take a look below at some of what I've worked on and the technologies I use.
+                Who knows, maybe we can collaborate on something awesome!
+            </h5>
+        </div>
+        <div id="myWork">
+            <h1 class="title">Some Of My Work</h1>
+            <div id="cardContainer">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="assets/edukit.gif" alt="edukit" />
+                            <div>
+                                <h5>Edukit</h5>
                             </div>
-                            <div class="card-content">
-                                <p>A fake app store for bad app ideas.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="https://github.com/SUMmaro400ex/FailQuietly" target="_blank">GitHub</a>
-                            </div>
+                        </div>
+                        <div class="back">
+                            <h5>Edukit</h5>
+                            <p>WORK IN PROGRESS!<br><br>Exciting new React App. Edukit is your complete education toolkit.<br><br> Check back soon for more information!
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item white-text" href="#one!">
-                    <div class="card">
-                        <span class="card-title center-align">Fail Quietly</span>
-                        <div class="card-image">
-                            <img id="fail-quietly" src="assets/apps.jpg" alt="fail quietly">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="assets/ngtutoring.png" alt="ng tutoring" />
+                            <div>
+                                <h5>Next Gen Tutoring</h5>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <p>A fake app store for bad app ideas.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="https://github.com/SUMmaro400ex/FailQuietly" target="_blank">GitHub</a>
+                        <div class="back">
+                            <h5>Next Gen Tutoring</h5>
+                            <p>Next Generation Tutoring is a tutoring service located in New Jersey.
+                                Their custom built website was truly a labor of love.
+                                I worked closely the Next Generation Tutoring team to ensure their website would help them grow their fledging business.
+                                They do great work and if you're interested, I highly recommend giving them a call.
+                                <br>
+                                <br>
+                                <a href="http://www.ngtutoring.com/" target="_blank">Next Generation Tutoring</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item white-text" href="#one!">
-                    <div class="card">
-                        <span class="card-title center-align">Fail Quietly</span>
-                        <div class="card-image">
-                            <img id="fail-quietly" src="assets/apps.jpg" alt="fail quietly">
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="assets/cloudapp.png" alt="cloud appointments" />
+                            <div>
+                                <h5>Cloud Appointments</h5>
+                            </div>
                         </div>
-                        <div class="card-content">
-                            <p>A fake app store for bad app ideas.</p>
+                        <div class="back">
+                            <h5>Cloud Appointments</h5>
+                            <p>Cloud Appointments is a telemedecine application connected to the CareCloud api.
+                            This was built during a 24hour period as part of a hackathon competition.
+                            A patient can schedule their next cloud appointment through the app.
+                            The doctor's office will then see the appointment on their schedule.
+                            When it's time for the appointment, the doctor will click the link embedded in the appointment to start the video call.
+                            The patient will then receive a text message that the doctor is ready with a link to join.</p>
                         </div>
-                        <div class="card-action">
-                            <a href="https://github.com/SUMmaro400ex/FailQuietly" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="flip-container">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="assets/wyncode.png" alt="wyncode" />
+                            <div>
+                                <h5>Wyncode</h5>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <h5>Wyncode</h5>
+                            <p>Wyncode is one of the highest rated coding bootcamps in the country located in Miami, Florida.
+                                I spent more than two years working as a part time teaching assistant.
+                                I met hundreds of eager new web developers and helped them on their journey to learn to code.
+                                I developed break out lessons concentrating on specific topics, held one on one tutoring sessions,
+                                and graded homework.
+                                <br>
+                                <br>
+                                <a href="http://www.wyncode.co/" target="_blank">Wyncode</a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="skills">
-        <div class="container">
-
+        <div id="expertise">
+            <h1 class="title">Tools Of The Trade</h1>
+            <div class="icons">
+                <div class="iconWrapper">
+                    <i class="far fa-gem"></i>
+                </div>
+                <div class="iconWrapper">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <div class="iconWrapper">
+                    <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="iconWrapper">
+                    <i class="fab fa-js"></i>
+                </div>
+                <div class="iconWrapper">
+                    <i class="fab fa-react"></i>
+                </div>
+            </div>
+        </div>
+        <div id="contactMe">
+            <h1 class="title">How To Find Me</h1>
+            <div id="blogSection">
+                <div class="blogSectionItem">
+                    <h2>I Tweet</h2>
+                    <a class="twitter-timeline" data-width="700" data-height="500" data-theme="dark" href="https://twitter.com/JonRoseDev?ref_src=twsrc%5Etfw">Tweets by JonRoseDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                <div class="blogSectionItem">
+                    <h2>I Blog</h2>
+                    <div id="mediumFeed">
+                        <iframe src="https://medium.com/@JonRoseDev"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div id="goodbye">
+                <img id="talkSoon" src="assets/bye.png" alt="bye">
+                <div id="contactMeWrapper">
+                    <h2 id="contactMeText">And I'm here too</h2>
+                    <div id="contactLinks">
+                        <a href="https://www.linkedin.com/in/jonathan-rose-4b120384"><img src="assets/linkedin.png"></a>
+                        <a href="https://github.com/SUMmaro400ex"><img src="assets/github.png"></a>
+                        <a  href="mailto:jon@jonrose.co"><img src="assets/email.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div id="catDiv">
+                <img id="cat" src="http://i.imgur.com/k5SyHiV.gif" alt="cat">
+            </div>
         </div>
     </section>
-    <section id="contact">
-        <div class="container">
-
-        </div>
-    </section>
-
 </body>
 </html>
